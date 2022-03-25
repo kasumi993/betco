@@ -1,0 +1,56 @@
+/*-------------------------------------------------------*/
+/*--------------- CUSTOM WIDGETS STYLES -----------------*/
+/*-------------------------------------------------------*/
+
+//Prague Recent Posts
+.prague-recent-post-widget {
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
+  &__item {
+    display: flex;
+
+    &:first-child{
+      margin-top: 25px;
+    }
+
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+  }
+
+  &__img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+  }
+
+  &__info {
+    width: calc(100% - 85px);
+  }
+
+  &__info-title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.3px;
+
+    a{
+      line-height: 1.71;
+
+      &:hover{
+        color: #fff;
+      }
+    }
+  }
+
+  &__info-date {
+    font-size: 12px;
+    letter-spacing: 0.17px;
+    line-height: 2;
+    color: #7e7d7d;
+  }
+}

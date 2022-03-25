@@ -1,0 +1,13 @@
+.gm-addon-shortcode-icon{
+    background: url("../images/maps1.png");
+    background-size: contain;
+    background-position: center;
+}
+.gm-addon-shortcode-icon-item{
+    background: url("../images/maps2.png");
+    background-size: contain;
+    background-position: center;
+}
+.pac-container{
+    z-index: 9999999;
+}
