@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/4.9.8" created="2018-12-06 18:06" -->
+
+<channel>
+	<title>Prague</title>
+	<pubDate>Thu, 06 Dec 2018 18:06:20 +0000</pubDate>
+
+	<form>
+		<id>3</id>
+		<form_key><![CDATA[jgd6s]]></form_key>
+		<name><![CDATA[Contact Us Form]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2017-01-10 10:13:58</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<default_template>0</default_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_action":"message","success_url":"","custom_style":1,"submit_value":"Send","success_msg":"Your responses were successfully submitted. Thank you!","form_class":"contact-us-form","before_html":"<legend class=\\\"frm_hidden\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","after_html":"","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<input type=\\\"button\\\" value=\\\"[back_label]\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook] \/>[\/if back_button]\r\n<img class=\\\"frm_ajax_loading\\\" src=\\\"[frmurl]\/images\/ajax_loader.gif\\\" alt=\\\"Sending\\\"\/>\r\n<input type=\\\"submit\\\" value=\\\"[button_label]\\\" [button_action] \/>\r\n<span class=\\\"arrow-right\\\"><\/span>\r\n[if save_draft]<a href=\\\"#\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","show_form":0,"akismet":"","no_save":0,"ajax_load":0,"old_style":"hello-world"}]]></options>
+		<status><![CDATA[published]]></status>
+        <parent_form_id>0</parent_form_id>
+		<field>
+		    <id>15</id>
+            <field_key><![CDATA[tgfdg]]></field_key>
+            <name><![CDATA[Name]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Name]]></default_value>
+            <field_order>0</field_order>
+            <form_id>3</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"row\">\r\n<div class=\"col-md-6 col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>16</id>
+            <field_key><![CDATA[4bs9q]]></field_key>
+            <name><![CDATA[Phone]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Phone]]></default_value>
+            <field_order>1</field_order>
+            <form_id>3</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"col-md-6 col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>17</id>
+            <field_key><![CDATA[1ghyp]]></field_key>
+            <name><![CDATA[Email Address]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[email]]></type>
+            <default_value><![CDATA[example@mail.com]]></default_value>
+            <field_order>2</field_order>
+            <form_id>3</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Email Address is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>18</id>
+            <field_key><![CDATA[jy2v2]]></field_key>
+            <name><![CDATA[Paragraph Text]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[textarea]]></type>
+            <default_value><![CDATA[Message]]></default_value>
+            <field_order>3</field_order>
+            <form_id>3</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"5","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+	</form>
+	<form>
+		<id>4</id>
+		<form_key><![CDATA[t1e6y]]></form_key>
+		<name><![CDATA[Contact Me Form]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2017-01-11 11:55:55</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<default_template>0</default_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_action":"message","success_url":"","show_form":"1","custom_style":1,"submit_value":"Send","success_msg":"Your responses were successfully submitted. Thank you!","form_class":"contact-me-form","before_html":"<legend class=\\\"frm_hidden\\\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\\\"frm_form_title\\\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","after_html":"","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<input type=\\\"button\\\" value=\\\"[back_label]\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook] \/>[\/if back_button]\r\n<img class=\\\"frm_ajax_loading\\\" src=\\\"[frmurl]\/images\/ajax_loader.gif\\\" alt=\\\"Sending\\\"\/>\r\n<input type=\\\"submit\\\" value=\\\"[button_label]\\\" [button_action] \/>\r\n<span class=\\\"arrow-right\\\"><\/span>\r\n[if save_draft]<a href=\\\"#\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","akismet":"","no_save":0,"ajax_load":0,"old_style":"hello-world"}]]></options>
+		<status><![CDATA[published]]></status>
+        <parent_form_id>0</parent_form_id>
+		<field>
+		    <id>19</id>
+            <field_key><![CDATA[hm4zn]]></field_key>
+            <name><![CDATA[Name]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Name]]></default_value>
+            <field_order>0</field_order>
+            <form_id>4</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"row\">\r\n<div class=\"col-md-6 col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>20</id>
+            <field_key><![CDATA[rposy]]></field_key>
+            <name><![CDATA[Phone]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Phone]]></default_value>
+            <field_order>1</field_order>
+            <form_id>4</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>21</id>
+            <field_key><![CDATA[pk5zg]]></field_key>
+            <name><![CDATA[Email Address]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[email]]></type>
+            <default_value><![CDATA[example@mail.com]]></default_value>
+            <field_order>2</field_order>
+            <form_id>4</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Email Address is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>22</id>
+            <field_key><![CDATA[jkt2l]]></field_key>
+            <name><![CDATA[Paragraph Text]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[textarea]]></type>
+            <default_value><![CDATA[Message]]></default_value>
+            <field_order>3</field_order>
+            <form_id>4</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"5","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"col-md-6 col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+	</form>
+	<form>
+		<id>5</id>
+		<form_key><![CDATA[mm5q2]]></form_key>
+		<name><![CDATA[IF YOU HAVE A QUESTION]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2017-02-26 18:29:52</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<default_template>0</default_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_action":"message","success_url":"","show_form":"1","custom_style":1,"submit_value":"Send","success_msg":"Your responses were successfully submitted. Thank you!","form_class":"","before_html":"<legend class=\\\"frm_hidden\\\">[form_name]<\/legend>\r\n<h6 class=\\\"prague-formidable-title\\\">[form_name]<\/h6>\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","after_html":"","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<input type=\\\"button\\\" value=\\\"[back_label]\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook] \/>[\/if back_button]\r\n<input type=\\\"submit\\\" value=\\\"[button_label]\\\" [button_action] \/>\r\n<img class=\\\"frm_ajax_loading\\\" src=\\\"[frmurl]\/images\/ajax_loader.gif\\\" alt=\\\"Sending\\\"\/>\r\n[if save_draft]<a href=\\\"#\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","akismet":"","no_save":0,"ajax_load":0,"old_style":"hello-world"}]]></options>
+		<status><![CDATA[published]]></status>
+        <parent_form_id>0</parent_form_id>
+		<field>
+		    <id>23</id>
+            <field_key><![CDATA[uwgj]]></field_key>
+            <name><![CDATA[Name]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Name]]></default_value>
+            <field_order>0</field_order>
+            <form_id>5</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"row\">\r\n<div class=\"col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>24</id>
+            <field_key><![CDATA[9orqb]]></field_key>
+            <name><![CDATA[Phone]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Phone]]></default_value>
+            <field_order>1</field_order>
+            <form_id>5</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>25</id>
+            <field_key><![CDATA[z995c]]></field_key>
+            <name><![CDATA[Email Address]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[email]]></type>
+            <default_value><![CDATA[Email]]></default_value>
+            <field_order>2</field_order>
+            <form_id>5</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Email Address is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+		<field>
+		    <id>26</id>
+            <field_key><![CDATA[epfhm]]></field_key>
+            <name><![CDATA[Paragraph Text]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[textarea]]></type>
+            <default_value><![CDATA[Message]]></default_value>
+            <field_order>3</field_order>
+            <form_id>5</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"5","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0}]]></field_options>
+		</field>
+	</form>
+	<form>
+		<id>7</id>
+		<form_key><![CDATA[jgd6s2]]></form_key>
+		<name><![CDATA[Contact Us Form 2]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2018-11-19 10:57:04</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<default_template>0</default_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_action":"message","success_url":"","custom_style":1,"submit_value":"Send","success_msg":"Your responses were successfully submitted. Thank you!","form_class":"contact-us-form","before_html":"<legend class=\"frm_hidden\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]","after_html":"","submit_html":"<div class=\"frm_submit\">\r\n[if back_button]<input type=\"button\" value=\"[back_label]\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook] \/>[\/if back_button]\r\n<img class=\"frm_ajax_loading\" src=\"[frmurl]\/images\/ajax_loader.gif\" alt=\"Sending\"\/>\r\n<input type=\"submit\" value=\"[button_label]\" [button_action] \/>\r\n<span class=\"arrow-right\"><\/span>\r\n[if save_draft]<a href=\"#\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","show_form":0,"akismet":"","no_save":0,"ajax_load":0,"old_style":"hello-world"}]]></options>
+		<status><![CDATA[published]]></status>
+        <parent_form_id>0</parent_form_id>
+		<field>
+		    <id>31</id>
+            <field_key><![CDATA[tgfdg2]]></field_key>
+            <name><![CDATA[Your Name]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Your Name]]></default_value>
+            <field_order>0</field_order>
+            <form_id>7</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Name is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"row\">\r\n<div class=\"col-md-6 col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0,"minnum":1,"maxnum":10,"step":1,"format":""}]]></field_options>
+		</field>
+		<field>
+		    <id>32</id>
+            <field_key><![CDATA[4bs9q2]]></field_key>
+            <name><![CDATA[Email Adsress*]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[email]]></type>
+            <default_value><![CDATA[Email Adsress*]]></default_value>
+            <field_order>1</field_order>
+            <form_id>7</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Phone is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div class=\"col-md-6 col-sm-6\">\r\n<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>\r\n<\/div>\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0,"minnum":1,"maxnum":10,"step":1,"format":""}]]></field_options>
+		</field>
+		<field>
+		    <id>33</id>
+            <field_key><![CDATA[1ghyp2]]></field_key>
+            <name><![CDATA[Subject]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Subject]]></default_value>
+            <field_order>2</field_order>
+            <form_id>7</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Email Address is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0,"minnum":1,"maxnum":10,"step":1,"format":""}]]></field_options>
+		</field>
+		<field>
+		    <id>34</id>
+            <field_key><![CDATA[jy2v]]></field_key>
+            <name><![CDATA[Message]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[textarea]]></type>
+            <default_value><![CDATA[Message]]></default_value>
+            <field_order>3</field_order>
+            <form_id>7</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"5","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0,"minnum":1,"maxnum":10,"step":1,"format":""}]]></field_options>
+		</field>
+	</form>
+	<form>
+		<id>8</id>
+		<form_key><![CDATA[mm5q22]]></form_key>
+		<name><![CDATA[Split Slider]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2018-11-19 13:17:27</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<default_template>0</default_template>
+		<editable>0</editable>
+		<options><![CDATA[{"success_action":"message","success_url":"","success_page_id":"","show_form":"1","custom_style":1,"submit_value":"Send","success_msg":"Your responses were successfully submitted. Thank you!","form_class":"","before_html":"","after_html":"","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<input type=\\\"button\\\" value=\\\"[back_label]\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook] \/>[\/if back_button]\r\n<input type=\\\"submit\\\" value=\\\"[button_label]\\\" [button_action] \/>\r\n<img class=\\\"frm_ajax_loading\\\" src=\\\"[frmurl]\/images\/ajax_loader.gif\\\" alt=\\\"Sending\\\"\/>\r\n[if save_draft]<a href=\\\"#\\\" class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","akismet":"","no_save":0,"ajax_load":0,"js_validate":0}]]></options>
+		<status><![CDATA[published]]></status>
+        <parent_form_id>0</parent_form_id>
+		<field>
+		    <id>37</id>
+            <field_key><![CDATA[z995c2]]></field_key>
+            <name><![CDATA[Your Email]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[email]]></type>
+            <default_value><![CDATA[Your Email]]></default_value>
+            <field_order>0</field_order>
+            <form_id>8</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Email Address is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0,"minnum":1,"maxnum":10,"step":1,"format":""}]]></field_options>
+		</field>
+		<field>
+		    <id>40</id>
+            <field_key><![CDATA[m5wef]]></field_key>
+            <name><![CDATA[Your Name]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[Your Name]]></default_value>
+            <field_order>1</field_order>
+            <form_id>8</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"","label":"none","blank":"","required_indicator":"*","invalid":"Text is invalid","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","minnum":1,"maxnum":10,"step":1,"format":""}]]></field_options>
+		</field>
+		<field>
+		    <id>38</id>
+            <field_key><![CDATA[epfhm2]]></field_key>
+            <name><![CDATA[Your Message]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[textarea]]></type>
+            <default_value><![CDATA[Your Message]]></default_value>
+            <field_order>2</field_order>
+            <form_id>8</form_id>
+            <required>0</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"size":"","max":"5","label":"none","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":"1","default_blank":"0","classes":"","custom_html":"<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\">[error]<\/div>[\/if error]\r\n<\/div>","captcha_size":"normal","captcha_theme":"light","in_section":0,"minnum":1,"maxnum":10,"step":1,"format":""}]]></field_options>
+		</field>
+	</form>
+	<view>
+		<title>Email Notification</title>
+		<link></link>
+		<post_author><![CDATA[admin]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","reply_to":"","from":"[sitename] <[admin_email]>","email_subject":"","email_message":"[default-message]","event":["create"]}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1048</post_id>
+		<post_date>2017-01-10 10:13:58</post_date>
+		<post_date_gmt>2017-01-10 10:13:58</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>2_email_280</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>3</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[2_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[2_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[2_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[2_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[2_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[2_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[2_email_]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Email Notification</title>
+		<link></link>
+		<post_author><![CDATA[admin]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","reply_to":"","from":"[sitename] <[admin_email]>","email_subject":"","email_message":"[default-message]","event":["create"]}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1049</post_id>
+		<post_date>2017-01-11 11:55:55</post_date>
+		<post_date_gmt>2017-01-11 11:55:55</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>3_email_366</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>4</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[3_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[3_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[3_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[3_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[3_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[3_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[3_email_]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Email Notification</title>
+		<link></link>
+		<post_author><![CDATA[admin]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","reply_to":"","from":"[sitename] <[admin_email]>","email_subject":"","email_message":"[default-message]","event":["create"]}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>1050</post_id>
+		<post_date>2017-02-26 18:29:52</post_date>
+		<post_date_gmt>2017-02-26 18:29:52</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>4_email_1413</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>5</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_vc_post_settings</meta_key>
+			<meta_value><![CDATA[{"vc_grid_id":[]}]]></meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_]]></meta_value>
+		</postmeta>
+	</view>
+	<view>
+		<title>Email Notification</title>
+		<link></link>
+		<post_author><![CDATA[admin]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","reply_to":"","from":"[sitename] <[admin_email]>","email_subject":"","email_message":"[default-message]","event":["create"],"inc_user_info":"0","plain_text":"0","conditions":{"send_stop":"","any_all":""}}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>2584</post_id>
+		<post_date>2017-01-10 10:13:58</post_date>
+		<post_date_gmt>2017-01-10 10:13:58</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>2_email_280-2</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>7</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
+	<view>
+		<title>Email Notification</title>
+		<link></link>
+		<post_author><![CDATA[admin]]></post_author>
+		<description></description>
+		<content><![CDATA[{"email_to":"[admin_email]","cc":"","bcc":"","reply_to":"","from":"[sitename] <[admin_email]>","email_subject":"","email_message":"[default-message]","event":["create"]}]]></content>
+		<excerpt><![CDATA[email]]></excerpt>
+		<post_id>2611</post_id>
+		<post_date>2017-02-26 18:29:52</post_date>
+		<post_date_gmt>2017-02-26 18:29:52</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>closed</ping_status>
+		<post_name>8_email_2611</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>8</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password><![CDATA[]]></post_password>
+		<is_sticky>0</is_sticky>
+		<postmeta>
+			<meta_key>_wp_old_slug</meta_key>
+			<meta_value><![CDATA[4_email_1413-2]]></meta_value>
+		</postmeta>
+	</view>
+</channel>

@@ -1,0 +1,33 @@
+.tg-prague-masonry a:not([class*="tg-element-"]),
+.tg-prague-masonry a:not([class*="tg-element-"]):active,
+.tg-prague-masonry a:not([class*="tg-element-"]):focus,
+.tg-prague-masonry [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-prague-masonry [class*="tg-element-"],
+.tg-prague-masonry .tg-item-overlay,
+.tg-prague-masonry .tg-center-holder,
+.tg-prague-masonry .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-prague-masonry .category {
+	font-family: "Open Sans", sans-serif;
+}
+.tg-prague-masonry .tg-item-image {
+	transition: transform .35s ease;
+}
+.tg-prague-masonry:hover .tg-item-image {
+	transform: scale(1.2);
+}

@@ -1,0 +1,122 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans%3A700%2C400%26subset%3Dcyrillic-ext) ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-prague-fullscreen a:not([class*="tg-element-"]),
+.tg-prague-fullscreen a:not([class*="tg-element-"]):active,
+.tg-prague-fullscreen a:not([class*="tg-element-"]):focus,
+.tg-prague-fullscreen [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-prague-fullscreen [class*="tg-element-"],
+.tg-prague-fullscreen .tg-item-overlay,
+.tg-prague-fullscreen .tg-center-holder,
+.tg-prague-fullscreen .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-prague-fullscreen .tg-item-overlay {
+	background-color: rgba(0,0,0,0) !important;
+}
+.tg-prague-fullscreen div.tg-item-media-content {
+	background-color: #ffffff !important;
+}
+.tg-prague-fullscreen .tg-element-1 {
+	position: relative;
+	font-size: 22px;
+	line-height: 40px;
+	color: #222222 !important;
+	font-weight: 700;
+	font-family: Open Sans;
+	text-transform: lowercase;
+	text-align: center;
+	letter-spacing: 0.2px;
+	display: block;
+	margin: 0 0 5px;
+	padding: 0;
+	-webkit-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+	transition: all 700ms ease;
+}
+.tg-prague-fullscreen .tg-element-1:hover {
+	opacity: 0.74 !important;
+}
+.tg-prague-fullscreen .tg-element-2 {
+	position: relative;
+	font-size: 18px;
+	line-height: 1.6em;
+	color: rgba(0,0,0,0.4) !important;
+	font-weight: 400;
+	font-family: Open Sans;
+	text-align: center;
+	display: block;
+}
+.tg-prague-fullscreen .tg-element-2 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-prague-fullscreen .tg-item-media-content {
+	opacity: 0;
+	visibility: hidden;
+	background-color: #fff;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	transition: opacity .55s ease, visibility .55s ease;
+	width: auto!important;
+	height: auto!important;
+	z-index: 2;
+}
+.tg-prague-fullscreen:hover .tg-item-media-content {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-prague-fullscreen .category {
+	font-family: "Open Sans", sans-serif;
+}
+.tg-prague-fullscreen::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: opacity .55s ease, visibility .55s ease;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: ;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1;
+}
+.tg-prague-fullscreen:hover::before {
+	opacity: 1;
+	visibility: visible;
+}

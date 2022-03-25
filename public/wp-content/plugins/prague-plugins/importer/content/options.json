@@ -1,0 +1,75 @@
+{
+	"show_on_front": "page",
+	"page_on_front": "1599",
+	"page_for_posts": "1109",
+	"pixfields_settings": {
+		"settings_saved_once": "",
+		"display_on_post_types": {
+			"post": "on",
+			"page": "on",
+			"services": "on",
+			"books": "on",
+			"media": "on",
+			"exihibitions": "on",
+			"projects": "on",
+			"portfolio": "on"
+		},
+		"fields_manager": null,
+		"allow_edit_on_post_page": "1",
+		"display_place": "before_content",
+		"hiddens": null,
+		"general": null,
+		"pixfields_list": null
+	},
+	"pixfields_list": {
+		"post": [{
+			"label": "test",
+			"filter": "on",
+			"meta_key": "test"
+		}],
+		"services": [{
+			"label": "Category",
+			"filter": "on",
+			"meta_key": "category"
+		}],
+		"books": [{
+			"label": "Author",
+			"filter": "on",
+			"meta_key": "author"
+		}],
+		"media": [{
+			"label": "Date",
+			"filter": "on",
+			"meta_key": "date"
+		}],
+		"exihibitions": [{
+			"label": "Location",
+			"filter": "on",
+			"meta_key": "location"
+		}],
+		"projects": [{
+			"label": "YEAR",
+			"filter": "on",
+			"meta_key": "year"
+		}, {
+			"label": "LOCATION",
+			"filter": "on",
+			"meta_key": "location"
+		}, {
+			"label": "CATEGORY",
+			"filter": "on",
+			"meta_key": "category"
+		}, {
+			"label": "CREATIVE DIRECTOR",
+			"meta_key": "creative-director"
+		}, {
+			"label": "VISUALIZATION",
+			"meta_key": "visualization"
+		}]
+	},
+	"image-map-pro-fragmented-saves": {"saves":{
+		"8965":{"meta_tmp":{"name":"Mountain House","id":"8965","shortcode":"mountain_house"},
+		"fragments":["{\\\"id\\\":8965,\\\"editor\\\":{\\\"previewMode\\\":1,\\\"selected_shape\\\":\\\"poly-6229\\\",\\\"tool\\\":\\\"poly\\\"},\\\"general\\\":{\\\"name\\\":\\\"Mountain House\\\",\\\"shortcode\\\":\\\"mountain_house\\\",\\\"width\\\":2000,\\\"height\\\":1066,\\\"image_url\\\":\\\"http:\/\/w2.themedemo.co\/prague\/wp-content\/uploads\/2017\/02\/\u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f.jpg\\\",\\\"pageload_animation\\\":\\\"fade\\\",\\\"fullscreen_tooltips\\\":\\\"mobile-only\\\"},\\\"spots\\\":[{\\\"id\\\":\\\"poly-6229\\\",\\\"type\\\":\\\"poly\\\",\\\"x\\\":31.722,\\\"y\\\":64.347,\\\"width\\\":8.748,\\\"height\\\":15.168,\\\"actions\\\":{\\\"click\\\":\\\"show-tooltip\\\"},\\\"mouseover_style\\\":{\\\"fill\\\":\\\"#e8c85a\\\",\\\"fill_opacity\\\":0.557859492481203,\\\"stroke_opacity\\\":0,\\\"stroke_linecap\\\":\\\"butt\\\"},\\\"tooltip_style\\\":{\\\"border_radius\\\":0,\\\"padding\\\":40,\\\"background_color\\\":\\\"#111111\\\",\\\"background_opacity\\\":1,\\\"position\\\":\\\"right\\\",\\\"width\\\":380},\\\"tooltip_content\\\":{\\\"content_type\\\":\\\"content-builder\\\",\\\"plain_text\\\":\\\"Small closed balkony\\\",\\\"squares_settings\\\":{\\\"containers\\\":[{\\\"id\\\":\\\"sq-container-44621\\\",\\\"settings\\\":{\\\"elements\\\":[{\\\"settings\\\":{\\\"name\\\":\\\"Image\\\",\\\"iconClass\\\":\\\"fa fa-camera\\\"},\\\"options\\\":{\\\"image\\\":{\\\"url\\\":\\\"http:\/\/w2.themedemo.co\/prague\/wp-content\/uploads\/2017\/02\/\u0428\u0430\u0440-12.jpg\\\"},\\\"layout\\\":{\\\"box_model\\\":{\\\"margin\\\":{\\\"bottom\\\":28},\\\"padding\\\":{\\\"top\\\":0,\\\"bottom\\\":0,\\\"left\\\":0,\\\"right\\\":0}},\\\"column_span\\\":{\\\"xs\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"sm\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"md\\\":{\\\"use\\\":1}}}}},{\\\"settings\\\":{\\\"name\\\":\\\"Heading\\\",\\\"iconClass\\\":\\\"fa fa-header\\\"},\\\"options\\\":{\\\"heading\\\":{\\\"text\\\":\\\"Small closed balkony\\\"},\\\"layout\\\":{\\\"box_model\\\":{\\\"margin\\\":{\\\"bottom\\\":16},\\\"padding\\\":{\\\"top\\\":0,\\\"bottom\\\":0,\\\"left\\\":0,\\\"right\\\":0}},\\\"column_span\\\":{\\\"xs\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"sm\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"md\\\":{\\\"use\\\":1}}},\\\"font\\\":{\\\"font_size\\\":\\\"20\\\",\\\"font_weight\\\":\\\"500\\\",\\\"line_height\\\":\\\"32\\\"}}},{\\\"settings\\\":{\\\"name\\\":\\\"Paragraph\\\",\\\"iconClass\\\":\\\"fa fa-paragraph\\\"},\\\"options\\\":{\\\"text\\\":{\\\"text\\\":\\\"A small balcony is not ideal but they are very common in some countries.Also, sometimes when you choose a home it has lots of other attractive features and the balcony, even small as it is, doesn\u2019t seem like a priority anymore.\\\"},\\\"layout\\\":{\\\"box_model\\\":{\\\"margin\\\":{\\\"bottom\\\":20},\\\"padding\\\":{\\\"top\\\":0,\\\"bottom\\\":0,\\\"left\\\":0,\\\"right\\\":0}},\\\"column_span\\\":{\\\"xs\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"sm\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"md\\\":{\\\"use\\\":1}}},\\\"font\\\":{\\\"font_size\\\":\\\"16\\\",\\\"font_weight\\\":\\\"400\\\",\\\"line_height\\\":\\\"32\\\",\\\"text_color\\\":\\\"#7e7d7d\\\",\\\"text_align\\\":\\\"#7e7d7d\\\"}}},{\\\"settings\\\":{\\\"name\\\":\\\"Button\\\",\\\"iconClass\\\":\\\"fa fa-link\\\"},\\\"options\\\":{\\\"button\\\":{\\\"text\\\":\\\"MORE DETAILS\\\",\\\"new_tab\\\":1,\\\"height\\\":30,\\\"bg_color\\\":\\\"#111111\\\",\\\"border_radius\\\":0,\\\"padding\\\":0},\\\"layout\\\":{\\\"box_model\\\":{\\\"padding\\\":{\\\"top\\\":0,\\\"bottom\\\":0,\\\"left\\\":0,\\\"right\\\":0}},\\\"column_span\\\":{\\\"xs\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"sm\\\":{\\\"use\\\":1,\\\"visible\\\":1},\\\"md\\\":{\\\"use\\\":1}}},\\\"font\\\":{\\\"font_size\\\":\\\"11\\\",\\\"font_weight\\\":\\\"700\\\",\\\"line_height\\\":\\\"18\\\"}}}]}}]}},\\\"points\\\":[{\\\"x\\\":100,\\\"y\\\":7.6086956521739095},{\\\"x\\\":68.30601092896174,\\\"y\\\":0},{\\\"x\\\":0,\\\"y\\\":27.17391304347822},{\\\"x\\\":0,\\\"y\\\":95.65217391304341},{\\\"x\\\":26.255625200900006,\\\"y\\\":100},{\\\"x\\\":64.28801028608166,\\\"y\\\":91.30434782608691},{\\\"x\\\":67.30151076824171,\\\"y\\\":91.30434782608691}]}]}"],
+		"meta":{"name":"Mountain House","id":"8965","shortcode":"mountain_house"}},"1220":{"meta_tmp":{"name":"Image_map","id":"1220","shortcode":"image_map"},"fragments":["{\\\"id\\\":1220,\\\"editor\\\":{\\\"previewMode\\\":1,\\\"selected_shape\\\":\\\"spot-3725\\\"},\\\"general\\\":{\\\"name\\\":\\\"Image_map\\\",\\\"shortcode\\\":\\\"image_map\\\",\\\"width\\\":2000,\\\"height\\\":1200,\\\"image_url\\\":\\\"http:\/\/w2.themedemo.co\/prague\/wp-content\/uploads\/2017\/02\/2518c145492213.58asasd330774816c9.jpg\\\"},\\\"spots\\\":[{\\\"id\\\":\\\"spot-3725\\\",\\\"x\\\":23.9,\\\"y\\\":44.2,\\\"actions\\\":{\\\"mouseover\\\":\\\"no-action\\\",\\\"click\\\":\\\"show-tooltip\\\"},\\\"default_style\\\":{\\\"use_icon\\\":1},\\\"tooltip_style\\\":{\\\"border_radius\\\":0,\\\"padding\\\":40,\\\"background_color\\\":\\\"#ffffff\\\",\\\"background_opacity\\\":1,\\\"position\\\":\\\"right\\\",\\\"width\\\":330},\\\"tooltip_content\\\":{\\\"content_type\\\":\\\"content-builder\\\",\\\"squares_settings\\\":{\\\"containers\\\":[{\\\"id\\\":\\\"sq-container-445801\\\",\\\"settings\\\":{\\\"elements\\\":[{\\\"settings\\\":{\\\"name\\\":\\\"Heading\\\",\\\"iconClass\\\":\\\"fa fa-header\\\"},\\\"options\\\":{\\\"heading\\\":{\\\"text\\\":\\\"White wall\\\"},\\\"layout\\\":{\\\"box_model\\\":{\\\"padding\\\":{\\\"top\\\":0,\\\"bottom\\\":0,\\\"left\\\":0,\\\"right\\\":0}}},\\\"font\\\":{\\\"font_size\\\":\\\"20\\\",\\\"font_weight\\\":\\\"500\\\",\\\"line_height\\\":\\\"32\\\",\\\"text_color\\\":\\\"#111111\\\"}}},{\\\"settings\\\":{\\\"name\\\":\\\"Paragraph\\\",\\\"iconClass\\\":\\\"fa fa-paragraph\\\"},\\\"options\\\":{\\\"text\\\":{\\\"text\\\":\\\"Just because your walls are devoid of color doesn\\'t mean they have to be boring. These well-appointed rooms prove neutral walls.\\\"},\\\"layout\\\":{\\\"box_model\\\":{\\\"padding\\\":{\\\"top\\\":0,\\\"bottom\\\":0,\\\"left\\\":0,\\\"right\\\":0}}},\\\"font\\\":{\\\"font_size\\\":\\\"16\\\",\\\"line_height\\\":\\\"32\\\",\\\"text_color\\\":\\\"#7e7d7d\\\"}}},{\\\"settings\\\":{\\\"name\\\":\\\"Button\\\",\\\"iconClass\\\":\\\"fa fa-link\\\"},\\\"options\\\":{\\\"button\\\":{\\\"text\\\":\\\"MORE DETAILS\\\",\\\"new_tab\\\":1,\\\"height\\\":32,\\\"bg_color\\\":\\\"#ffffff\\\",\\\"text_color\\\":\\\"#111111\\\",\\\"border_radius\\\":0,\\\"padding\\\":0},\\\"layout\\\":{\\\"box_model\\\":{\\\"padding\\\":{\\\"top\\\":0,\\\"bottom\\\":0,\\\"left\\\":0,\\\"right\\\":0}}},\\\"font\\\":{\\\"font_size\\\":\\\"11\\\",\\\"font_weight\\\":\\\"500\\\",\\\"line_height\\\":\\\"18\\\",\\\"text_color\\\":\\\"#111111\\\"}}}]}}]}}}]}"],"meta":{"name":"Image_map","id":"1220","shortcode":"image_map"}}
+	}}
+}
