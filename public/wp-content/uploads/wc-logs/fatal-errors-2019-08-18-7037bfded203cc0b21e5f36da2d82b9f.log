@@ -1,0 +1,39 @@
+2019-08-18T13:30:17+00:00 CRITICAL Uncaught Error: Cannot unset string offsets in /app/public/wp-includes/class-wp-customize-widgets.php:1130
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): WP_Customize_Widgets->preview_sidebars_widgets('')
+#1 /app/public/wp-includes/plugin.php(208): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/widgets.php(963): apply_filters('sidebars_widget...', '')
+#3 /app/public/wp-includes/class-wp-customize-widgets.php(378): wp_get_sidebars_widgets()
+#4 /app/public/wp-includes/class-wp-customize-widgets.php(355): WP_Customize_Widgets->customize_register()
+#5 /app/public/wp-includes/class-wp-hook.php(286): WP_Customize_Widgets->schedule_customize_register(Object(WP_Customize_Manager))
+#6 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /app/public/wp-includes/class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
+#9 /app/public/wp-includes/cla in /app/public/wp-includes/class-wp-customize-widgets.php on line 1130
+
+2019-08-18T14:17:47+00:00 CRITICAL Uncaught Error: Cannot unset string offsets in /app/public/wp-includes/class-wp-customize-widgets.php:1130
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): WP_Customize_Widgets->preview_sidebars_widgets('')
+#1 /app/public/wp-includes/plugin.php(208): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/widgets.php(963): apply_filters('sidebars_widget...', '')
+#3 /app/public/wp-includes/class-wp-customize-widgets.php(378): wp_get_sidebars_widgets()
+#4 /app/public/wp-includes/class-wp-customize-widgets.php(355): WP_Customize_Widgets->customize_register()
+#5 /app/public/wp-includes/class-wp-hook.php(286): WP_Customize_Widgets->schedule_customize_register(Object(WP_Customize_Manager))
+#6 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /app/public/wp-includes/class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
+#9 /app/public/wp-includes/cla in /app/public/wp-includes/class-wp-customize-widgets.php on line 1130
+
+2019-08-18T15:48:52+00:00 CRITICAL Uncaught Error: Cannot unset string offsets in /app/public/wp-includes/class-wp-customize-widgets.php:1130
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): WP_Customize_Widgets->preview_sidebars_widgets('')
+#1 /app/public/wp-includes/plugin.php(208): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/widgets.php(963): apply_filters('sidebars_widget...', '')
+#3 /app/public/wp-includes/class-wp-customize-widgets.php(378): wp_get_sidebars_widgets()
+#4 /app/public/wp-includes/class-wp-customize-widgets.php(355): WP_Customize_Widgets->customize_register()
+#5 /app/public/wp-includes/class-wp-hook.php(286): WP_Customize_Widgets->schedule_customize_register(Object(WP_Customize_Manager))
+#6 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /app/public/wp-includes/class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
+#9 /app/public/wp-includes/cla in /app/public/wp-includes/class-wp-customize-widgets.php on line 1130
+
